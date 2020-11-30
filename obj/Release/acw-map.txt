@@ -1,0 +1,15 @@
+Converter.MainActivity;converter.MainActivity
+Converter.Convert;converter.Convert
+Converter.Time;converter.Time
+Converter.Distance;converter.Distance
+Converter.Area;converter.Area
+Converter.Volume;converter.Volume
+Converter.Mass;converter.Mass
+Converter.Power;converter.Power
+Converter.Pressure;converter.Pressure
+Converter.Speed;converter.Speed
+Converter.SpeedUp;converter.SpeedUp
+Converter.Memory;converter.Memory
+Converter.DataRate;converter.DataRate
+Converter.DownloadSpeed;converter.DownloadSpeed
+Converter.SorryMaybeLater;converter.SorryMaybeLater
