@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="Converter.Converter">
+  <uses-sdk android:minSdkVersion="13" android:targetSdkVersion="17" />
+  <application android:label="Converter" android:name="mono.android.app.Application">
+    <activity android:icon="@drawable/icon" android:label="Converter" android:name="converter.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="Convert" android:name="converter.Convert" />
+    <activity android:label="Time" android:name="converter.Time" />
+    <activity android:label="Distance" android:name="converter.Distance" />
+    <activity android:label="Area" android:name="converter.Area" />
+    <activity android:label="Volume" android:name="converter.Volume" />
+    <activity android:label="Mass" android:name="converter.Mass" />
+    <activity android:label="Power" android:name="converter.Power" />
+    <activity android:label="Pressure" android:name="converter.Pressure" />
+    <activity android:label="Speed" android:name="converter.Speed" />
+    <activity android:label="SpeedUp" android:name="converter.SpeedUp" />
+    <activity android:label="Memory" android:name="converter.Memory" />
+    <activity android:label="Data rate" android:name="converter.DataRate" />
+    <activity android:label="Download speed" android:name="converter.DownloadSpeed" />
+    <activity android:label="SorryMaybeLater" android:name="converter.SorryMaybeLater" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="Converter.Converter.mono.MonoRuntimeProvider.__mono_init__" />
+  </application>
+</manifest>
